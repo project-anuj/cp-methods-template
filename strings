@@ -1,0 +1,85 @@
+_______________________                                     __________________________
+   Character Arrays                                                   Strings
+_______________________                                     __________________________
+- Need to know size beforehand                            - No need to know size beforehand
+- Larger size required for operations                     - Performing operations like concatenation
+   ( concatenate or append)                                  & append is easier
+- No terminating extra character.                         - Terminated with a special character '\0'
+
+____________________________________________________________________________________________________________________
+                      Different types of ways to declare a string/ Different functions in strings
+____________________________________________________________________________________________________________________
+1)  string str;
+    cin>>str;
+    cout<<str;
+ 
+2)  string str1(5,'n');
+    cout<<str1;          // nnnnn
+
+3)  string str = "ApniKaksha";
+    cout<<str;           // ApniKaksha
+
+4)  string str;
+    getline(cin, str);
+    cout<< str ;        // Rishabh is a peaceful soul
+    
+5)   string s1="fam";
+     string s2="ily";
+     s1.append(s2);
+     cout<<s1;         // family
+     
+     cout<< s1+s2;     // family
+     
+     s1=s1+s2;
+     cout<< s1;        // family
+     
+10)  cout<< s1[1];      // a
+
+11)  string str="anuj";
+     str.clear();
+     cout<<str;        //
+  
+12)  string s1= "abc";
+     string s2= " xyz";
+     cout<< s2.compare(s1);  
+     //  if s1>s2  => positive
+     //  if s1== s2  => zero
+     //  if s1<s2    => negative
+     
+13)  string str="abc";
+      str.empty();   // check wheather string is empty
+   
+14)  string s1="nincompoop";
+     s1.erase(3,2);    // ninmpoop
+    
+15)   string s1="nincompoop";
+      cout<<s1.find("com");     // 3
+      cout<<s1.find("poo");     // 6
+ 
+16)  string s1="nincompoop";
+     s1.insert(2,"lol");
+     cout<<s1;                // nilolncompoop
+     
+17)   string s1="nincompoop"; 
+      cout<<s1.size();        // 10
+      cout<<s1.length();      // 10
+      
+18)   string s1="nincompoop";
+      string s=s.substr(6,4);
+      cout<<s1;               //poop
+      
+19)   string s1 = "786";
+      int x = stoi(s1);
+      cout<< x+2;     // 788
+      
+20)   int x = 786;
+      cout<<to_string(x)+2;      // 7862
+      
+21)   string s1 = "xcmnmvzcxmfas";
+      sort(s1.begin(),s1.end());
+      cout<< s1;                  // accfmmmnsvxyz
+      
+22)   
+
+
+
