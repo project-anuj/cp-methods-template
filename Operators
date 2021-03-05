@@ -1,0 +1,110 @@
+_________________________________________
+          Arithmetic Operators
+_________________________________________
+1) Binary Operators       +,-,*,/,%
+2) Unary Operators        ++,--
+
+_______________________________________
+        Relational Operators
+_______________________________________
+Defines a relation between 2 operands
+Returns a boolean value
+
+==      Gives true value if both operands have equal value
+!=      Gives true if both operands are not equal
+>       Gives true if left operand is more than right operand
+<       Gives true if left operand is less than right operand
+>=      Gives true if left operand is more than or equal to right operand
+<=      Gives true if operand is less than or equal to right operand
+
+_________________________________________
+          Logical Operators
+_________________________________________
+
+Used to connect multiple conditions / expressions together or to reverse logical value.
+
+&&   AND gives us true if both operands are true , else false
+||   OR gives us true if atleast one of the operands are true
+!    NOT gives the opposite logical value of the operand. True becomes false and false becomes true.
+
+_________________________________________
+           Bitwise Operators
+_________________________________________
+
+Operate on bits and perform bit-by-bit operations
+      & AND operator                       | OR operator
+        0101                                 0101
+      & 0110                               | 0110
+      _______                              _______
+        0100                                 0111
+      _______                              _______
+ 
+      ^ XOR operator                       ~ Ones operator
+            0101                                
+          & 0110                              ~  0101
+          _______                              _______
+            0011                                 1010
+          _______                              _______
+     << Left Shift operator                 >> Right shift operator
+           4<<1                                   4>>1
+           (0100)                                 (0100)
+           =1000                                  = 0010
+  
+      a << n --------------------------->  a * 2^n
+      a >> n --------------------------->  a / 2^n
+   
+_________________________________
+      Assignment Operators
+_________________________________
+
+=     Assigns value of right operand to left operand
++=    Assigns sum of two operands to left operand
+-=    Assigns difference of two operand to left operand
+*=    Assigns product of two operand to left operand
+/=    Assigns the quotient of two operands to left operand
+
+_______________________________________
+        Miscellaneous OPerators
+_______________________________________
+      
+ sizeof()               Returns the size of variable
+ Condition ? x:y        Returns value of X if condition is true or else value of Y
+ cast                   Convert one data type to another    
+ Comma(,)               Causes a sequence of operations to be performed    // a=(2,3,4)   => a=4
+ &                      Returns the address of a variable
+ *                      Pointer to a variable
+      
+______________________________________________________________________________
+                              Operators Precedence
+______________________________________________________________________________
+Postfix                    Operators                           Associativity
+_______                    _________                           _____________
+Unary                    (),[],->,.,++,--                      Left to Right
+
+Multiplicative            +,-,!,~,++,--,(type)*,&,sizeof       Right to left
+
+Additive                  +,-                                  Left to Right
+
+Shift                     << >>                                Left to Right
+
+Relational                < <= > >=                            Left to Right
+
+Equality                  == !=                                Left to Right
+
+Bitwise AND               &                                    Left to Right
+ 
+Bitwise XOR               ^                                    Left to Right
+
+Bitwise OR                |                                    Left to Right
+
+Logical AND               &&                                   Left to Right
+
+Logical OR                ||                                   Left to Right
+
+Conditional               ?:                                   Right to Left
+
+Assignment                = += -= *= /= %=                     Right to left
+                          > >= < <= &= ^= |=     
+Comma                     ,                                    Left to right                                    
+
+
