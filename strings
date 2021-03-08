@@ -128,12 +128,37 @@ ______________________________________________________________________________
              i.e., 
                   str1.swap(str2); 
 
+_______________________________________________________________________________
+                  Function Templates used in regex
+_______________________________________________________________________________
+1) regex_match() :- This function return true if the regular expression is a match against the given string otherwise it returns false.
+
+2) regex_search() :- This function is used to search for a pattern matching the regular expression.
+
+3) regex_replace() :- This function is used to replace the pattern matching to the regular expression with a string.
 
 
+_____________________________________________________________________________________
+                      stringstream in C++ and its applications
+_____________________________________________________________________________________
 
+A stringstream associates a string object with a stream allowing you to read from the string as if it were a stream (like cin)
 
+Basic methods are-
+   clear() -  to clear the stream
+   str() — to get and set string object whose content is present in stream.
+   operator << — add a string to the stringstream object.
+   operator >> — read something from the stringstream object, 
 
+stringstream class is extremely useful in parsing input. 
 
+---------------------
+  Some Applications
+---------------------
+1) Count number of words in a string
+2) Print frequencies of individual words in a string
+3) Removing spaces from a string using StringStream
+4) Converting Strings to Numbers in C/C++
 
 
 
